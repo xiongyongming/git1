@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#cvs{
+			background: #fff;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="cvs" width="800" height="800"></canvas>
+</body>
+<script>
+	var	cvs=document.getElementById('cvs');
+	var	ctx=cvs.getContext('2d');
+	ctx.beginPath();
+	ctx.moveTo(300,200);
+	ctx.lineTo(295,205);
+	ctx.lineTo(270,215);
+	ctx.lineTo(20,270);
+	ctx.lineTo(20,350);
+	ctx.lineTo(35,350);
+	ctx.lineTo(50,335);
+	ctx.lineTo(180,300);
+	ctx.lineTo(300,300);
+	ctx.lineTo(300,430);
+	ctx.lineTo(320,540);
+	ctx.lineTo(340,540);
+	ctx.lineTo(360,430);
+	ctx.lineTo(360,300);
+	ctx.lineTo(480,300);
+	ctx.lineTo(610,335);
+	ctx.lineTo(625,350);
+	ctx.lineTo(640,350);
+	ctx.lineTo(640,270);
+	ctx.lineTo(390,215);
+	ctx.lineTo(365,205);
+	ctx.lineTo(360,200);
+	ctx.stroke();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(302,445);
+	ctx.lineTo(180,490);
+	ctx.lineTo(180,540);
+	ctx.lineTo(315,520);
+	ctx.stroke();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(358,445);
+	ctx.lineTo(480,490);
+	ctx.lineTo(480,540);
+	ctx.lineTo(345,520);
+	ctx.stroke();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(160,280);
+	ctx.lineTo(160,330);
+	ctx.lineTo(180,330);
+	ctx.lineTo(180,280);
+	ctx.lineTo(160,280);
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(120,300);
+	ctx.lineTo(120,350);
+	ctx.lineTo(140,350);
+	ctx.lineTo(140,300);
+	ctx.lineTo(120,300);
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(500,280);
+	ctx.lineTo(500,330);
+	ctx.lineTo(480,330);
+	ctx.lineTo(480,280);
+	ctx.lineTo(500,280);
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(520,300);
+	ctx.lineTo(520,350);
+	ctx.lineTo(540,350);
+	ctx.lineTo(540,300);
+	ctx.lineTo(500,300);
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(300,300);
+	ctx.lineTo(300,120);
+	ctx.lineTo(360,120);
+	ctx.lineTo(360,300);
+	ctx.lineTo(300,300);
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(300,120);
+	ctx.quadraticCurveTo(328,19,360,120);
+	ctx.strokeStyle="#ccc";
+	ctx.stroke();
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.moveTo(300,300);
+	ctx.quadraticCurveTo(330,600,360,300);
+	ctx.fillStyle="#ccc";
+	ctx.fill();
+	ctx.closePath();
+</script>
+</html>
